@@ -1,0 +1,345 @@
+#custom-progress-bar {
+  height: 10px;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  background-color: #fffffe;
+}
+
+.custom-file-uploader .file-uploader-body {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.file-uploader-body .section-grid {
+  z-index: 999;
+  width: 50%;
+  max-height: 190px;
+}
+
+.file-uploader-body .uploader-content {
+  padding: 15px;
+}
+
+.file-uploader-body .preview iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.file-uploader-body .preview img {
+  height: 100%;
+  width: 100%;
+  max-height: 156px;
+  object-fit: cover;
+}
+
+.file-uploader-body .preview img:hover {
+  object-fit: contain;
+}
+
+.file-uploader-body .preview audio {
+  width: 100%;
+}
+
+.file-uploader-body .preview video {
+  height: 100%;
+  width: 100%;
+  max-height: 250px;
+}
+
+.file-uploader-body .preview {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  max-height: 190px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.media-card .md-body {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  min-height: 206px;
+  background-color: #fffffe;
+}
+
+.uploader-content input {
+  width: 100%;
+  border-radius: 0px;
+}
+
+.uploader-content .uploader-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.uploader-content .uploader-buttons button {
+  width: 170px;
+  border-radius: 0px;
+  border: 1px solid rgb(155, 155, 155);
+  border-left: 4px solid rgb(155, 155, 155);
+}
+
+.uploader-content .uploader-buttons .file-input {
+  width: 150px !important;
+}
+
+.file-uploader-body .uploader-files {
+  margin-top: 10px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid rgb(155, 155, 155);
+  border-left: 4px solid rgb(155, 155, 155);
+}
+
+.file-uploader-body .uploader-files .header-uploader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.file-uploader-body .uploader-files .file-remove-btn {
+  border-radius: 50%;
+}
+
+.media-card {
+  border-radius: 3px;
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.custom-file-uploader {
+  border: 1px solid #ccc;
+}
+
+.media-card .md-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 5px;
+}
+
+.media-card .md-body iframe {
+  z-index: 999;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border: none;
+  height: 200px;
+  width: 100%;
+}
+
+.media-card .md-body video {
+  z-index: 999;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border: none;
+  height: 200px;
+  width: 100%;
+}
+
+.media-card .md-body img {
+  z-index: 999;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.media-card .md-body img:hover {
+  object-fit: contain;
+}
+
+.media-card .md-footer .selected-btn {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.media-card .md-footer .selected-btn i.fa.fa-check {
+  margin-left: 4px;
+}
+
+.media-card .md-footer .remove-btn {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.media-card .md-footer .media-operation-btn {
+  background-color: #f6f6f6;
+  border: 1px solid rgb(207, 207, 207);
+  margin: 0px 1px;
+  width: 80px;
+}
+
+.media-card .md-footer .media-operation-btn span {
+  margin-left: 5px;
+}
+
+.media-card .md-header {
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 2px solid rgb(198, 198, 198);
+}
+
+.media-card .md-footer {
+  padding: 10px 20px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top: 1px solid rgb(218, 218, 218);
+  background-color: #ffffff;
+}
+
+.custom-file-uploader .modal-content {
+  height: 760px !important;
+  overflow: auto;
+}
+
+.media-library-page .media-library-header {
+  margin-bottom: 15px !important;
+}
+
+.media-library-header {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.media-library-header input {
+  border-radius: 0px !important;
+  margin-bottom: 0px !important;
+  width: 250px !important;
+}
+
+.media-library-header select {
+  border-radius: 0px !important;
+  margin-bottom: 0px !important;
+  width: 250px !important;
+}
+
+.uploader-content .none-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border-radius: 5px;
+  background-color: #d2d2d2;
+}
+
+.uploader-content .none-preview span {
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 15px;
+  background-color: #f2f2f2;
+  color: #707070;
+  width: 150px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.file-paginate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.md-footer .file-description {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.file-paginate .page-info {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.file-paginate button {
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border: 1px solid rgb(207, 207, 207);
+  margin: 0px 1px;
+  width: 80px;
+}
+
+.file-paginate .prev-btn i {
+  margin-right: 7px;
+}
+
+.file-paginate .next-btn i {
+  margin-left: 5px;
+}
+
+.file-paginate .prev-btn {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.file-paginate .next-btn {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.basic-uploader .uploader-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.basic-uploader .uploader-buttons {
+  margin-top: 0px;
+  margin-left: 5px;
+}
+
+.basic-uploader {
+  margin-bottom: 0px !important;
+}
+
+.basic-uploader-filter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.basic-uploader-filter select {
+  margin-right: 5px;
+}
+
+.bs-file-uploader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bs-file-uploader {
+  margin-bottom: 30px !important;
+}
+
+.data-info-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.data-info-text span {
+  font-size: 16px;
+  font-weight: 700;
+}
